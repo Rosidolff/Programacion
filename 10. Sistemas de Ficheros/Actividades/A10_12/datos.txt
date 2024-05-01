@@ -1,0 +1,7 @@
+Nombre: jose manuel edad: 45
+Nombre: Miguel edad: 23
+Nombre: asdf edad: 123
+Nombre: aerdst edad: 34
+Nombre: Maria Luisa Jimenez edad: 20
+Nombre: Maria l edad: 124
+Nombre: Domingo edad: 30

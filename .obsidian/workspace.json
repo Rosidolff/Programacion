@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "2ca0b66cf8979236",
+    "type": "split",
+    "children": [
+      {
+        "id": "f44b7023b2d72172",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ffdc9d066797dae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baf49bbc156f9d5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11. Ficheros Binarios/Ficheros Binarios.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecfe340a793430d8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240430171603.png"
+              }
+            }
+          },
+          {
+            "id": "8d00df9a30c1a052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12. Colecciones/Colecciones.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b4e47e99f8875c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "186e5ccff5b9f5de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfe5353ca9d78ba1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5338a88c0f5deec0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a6bbc03d812195ac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8b8c0366e741e806",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bc804287b960b15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9dc24afdace4c4f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eed73923af31e6d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6df30cc11c205a8d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aee4245017d49566",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "9ffdc9d066797dae",
+  "lastOpenFiles": [
+    "10. Sistemas de Ficheros/Actividades/A10_13/manifest.mf",
+    "10. Sistemas de Ficheros/Actividades/A10_13/src/a10_13/A10_13.java",
+    "10. Sistemas de Ficheros/Actividades/A10_13/src/a10_13",
+    "10. Sistemas de Ficheros/Actividades/A10_13/src",
+    "10. Sistemas de Ficheros/Actividades/A10_13/build.xml",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/build-impl.xml",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/genfiles.properties",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/project.properties",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/private/private.properties",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/private",
+    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/project.xml",
+    "11. Ficheros Binarios/Ficheros Binarios.md",
+    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+    "12. Colecciones/Colecciones.md",
+    "Pasted image 20240501122155.png",
+    "Pasted image 20240430171603.png",
+    "12. Colecciones/Coleccionesasdf.md",
+    "Sin título 1.md",
+    "1.Conceptos Básicos/Sin título.md"
+  ]
+}
