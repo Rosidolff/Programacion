@@ -20,6 +20,54 @@
             }
           },
           {
+            "id": "97d9fd2d29802f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Casteos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a18be62d968c972",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23d3c9ea8d5442ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Z.JAVASCRIPT/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5424e0d06d18b0fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Z.JAVASCRIPT/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "baf49bbc156f9d5d",
             "type": "leaf",
             "state": {
@@ -28,16 +76,6 @@
                 "file": "11. Ficheros Binarios/Ficheros Binarios.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ecfe340a793430d8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240430171603.png"
               }
             }
           },
@@ -53,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+                "file": "Z.JAVASCRIPT/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+                "file": "Z.JAVASCRIPT/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md"
+                "file": "Z.JAVASCRIPT/JavaScript.md"
               }
             }
           }
@@ -180,24 +219,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9ffdc9d066797dae",
+  "active": "5424e0d06d18b0fc",
   "lastOpenFiles": [
-    "10. Sistemas de Ficheros/Actividades/A10_13/manifest.mf",
-    "10. Sistemas de Ficheros/Actividades/A10_13/src/a10_13/A10_13.java",
-    "10. Sistemas de Ficheros/Actividades/A10_13/src/a10_13",
-    "10. Sistemas de Ficheros/Actividades/A10_13/src",
-    "10. Sistemas de Ficheros/Actividades/A10_13/build.xml",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/build-impl.xml",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/genfiles.properties",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/project.properties",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/private/private.properties",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/private",
-    "10. Sistemas de Ficheros/Actividades/A10_13/nbproject/project.xml",
-    "11. Ficheros Binarios/Ficheros Binarios.md",
+    "Otros Truquis en Java.md",
+    "Z.JAVASCRIPT/JavaScript.md",
+    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
+    "Z.JAVASCRIPT",
+    "Casteos.md",
+    "10. Sistemas de Ficheros.zip",
     "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+    "10. Sistemas de Ficheros/Actividades/A10_13/listaC.txt",
+    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes/a10_13/A10_13.class",
+    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes/a10_13",
+    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes",
+    "10. Sistemas de Ficheros/Actividades/A10_13/build",
+    "10. Sistemas de Ficheros/Actividades/A10_13/test",
+    "10. Sistemas de Ficheros/Actividades/A10_13/lista2.txt",
+    "10. Sistemas de Ficheros/Actividades/A10_13/Nuevo Documento de texto.txt",
+    "11. Ficheros Binarios/Ficheros Binarios.md",
+    "Pasted image 20240430171603.png",
+    "README.md",
     "12. Colecciones/Colecciones.md",
     "Pasted image 20240501122155.png",
-    "Pasted image 20240430171603.png",
     "12. Colecciones/Coleccionesasdf.md",
     "Sin título 1.md",
     "1.Conceptos Básicos/Sin título.md"
