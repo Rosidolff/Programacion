@@ -8,72 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ffdc9d066797dae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97d9fd2d29802f19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Casteos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a18be62d968c972",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23d3c9ea8d5442ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z.JAVASCRIPT/JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5424e0d06d18b0fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Repasillos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c7500984467152b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Arrays/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,33 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "baf49bbc156f9d5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. Ficheros Binarios/Ficheros Binarios.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d00df9a30c1a052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12. Colecciones/Colecciones.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -257,28 +173,29 @@
   },
   "active": "b2eeee5b811755d0",
   "lastOpenFiles": [
-    "Casteos.md",
-    "Repasillos.md",
-    "Sistemas.md",
+    "12. Colecciones/Actividades/AR12_4/build/classes/ar12_4/AR12_4.class",
+    "12. Colecciones/Actividades/AR12_4/build/classes/ar12_4",
+    "12. Colecciones/Actividades/AR12_4/build/classes",
+    "12. Colecciones/Actividades/AR12_4/build",
+    "12. Colecciones/Actividades/AR12_4/test",
+    "12. Colecciones/Actividades/AR12_4/manifest.mf",
+    "12. Colecciones/Actividades/AR12_4/src/ar12_4/AR12_4.java",
+    "12. Colecciones/Actividades/AR12_4/src/ar12_4",
+    "12. Colecciones/Actividades/AR12_4/src",
+    "12. Colecciones/Actividades/AR12_4/build.xml",
+    "12. Colecciones/Actividades/AR12_4/nbproject/build-impl.xml",
     "Otros Truquis en Java.md",
+    "Repasillos.md",
     "Programación clase 7_5_2024.md",
-    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-    "7. Clases/Clases.md",
     "5. Arrays/Arrays.md",
-    "7. Clases",
-    "5. Arrays",
-    "12. Colecciones/Colecciones.md",
     "11. Ficheros Binarios/Ficheros Binarios.md",
     "Z.JAVASCRIPT/JavaScript.md",
-    "Z.JAVASCRIPT",
-    "10. Sistemas de Ficheros.zip",
+    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
+    "Casteos.md",
     "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-    "10. Sistemas de Ficheros/Actividades/A10_13/listaC.txt",
-    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes/a10_13/A10_13.class",
-    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes/a10_13",
-    "10. Sistemas de Ficheros/Actividades/A10_13/build/classes",
-    "10. Sistemas de Ficheros/Actividades/A10_13/build",
-    "10. Sistemas de Ficheros/Actividades/A10_13/test",
+    "Sistemas.md",
+    "7. Clases/Clases.md",
+    "12. Colecciones/Colecciones.md",
     "Pasted image 20240430171603.png",
     "README.md",
     "Pasted image 20240501122155.png",
