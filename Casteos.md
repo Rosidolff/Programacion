@@ -1,7 +1,7 @@
 # valueOf  `Tipo.valueOf(variable)` 
 Ejemplo
 `               out.write(String.valueOf(num));`
->[!la primera en mayuscula!]
+>[!la primera en mayuscula! llamamos a la clase no al primitivo]
 > `Double.valueOf(coso)`
 # (Parentesis) `(tipo) loquecasteamos`
 Este es el casteo clásico pero casi nunca funciona.
