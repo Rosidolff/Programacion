@@ -171,7 +171,7 @@ Collection<Cliente> coleccionClie = listaClientes;
   coleccionClie.removeAll(otrosClientes);
   ```
 - **retainAll(Collection\<?\> c)**
-  Retiene solo los elementos en la colección que también están en `c`. Devuelve `true` si la colección cambió.
+  Mantiene solo los elementos en la colección que también están en `c`. Devuelve `true` si la colección cambió.
   ```java
   coleccionClie.retainAll(otrosClientes);
   ```

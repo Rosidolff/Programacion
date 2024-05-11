@@ -14,6 +14,8 @@ public class A10_13 {
         int[] lista1 = importaArray("lista1.txt");
         int[] lista2 = importaArray("lista2.txt");
         int[] listaC = unir(lista1, lista2);
+        
+     
         Arrays.sort(listaC);
         System.out.println(Arrays.toString(listaC));
 
