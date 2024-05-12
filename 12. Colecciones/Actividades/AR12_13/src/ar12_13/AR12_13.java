@@ -4,6 +4,8 @@
  */
 package ar12_13;
 
+import java.util.Set;
+
 /**
  *
  * @author JMart
@@ -15,7 +17,15 @@ public class AR12_13 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Sorteo<Integer> tombola = new Sorteo<>();
+        for(int i=1;i<25;i++){
+            tombola.add(i);
+        }
+        System.out.println(tombola);
+        Set<Integer> premios = tombola.premiados(3);
+        System.out.println(premios);
         
+
     }
-    
+
 }
