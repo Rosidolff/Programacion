@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "asList",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md"
+                "file": "12. Colecciones/Colecciones.md"
               }
             }
           }
@@ -233,19 +234,20 @@
   },
   "active": "99b16552fa816253",
   "lastOpenFiles": [
-    "Sistemas.md",
+    "12. Colecciones/Actividades/AdA12_21/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_11/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_13/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AdA12_24/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AdA12_26/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AdA12_25/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_12/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_4/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_8/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AP12_5/nbproject/private/private.xml",
+    "12. Colecciones/Actividades/AR12_6/nbproject/private/private.xml",
     "Linux/Linux.md",
-    "Linux",
+    "Sistemas.md",
     "12. Colecciones/Colecciones.md",
-    "12. Colecciones/Actividades/AR12_14/src/ar12_14/Registro.java",
-    "12. Colecciones/Actividades/AR12_14/src/ar12_14/temperaturas.java",
-    "12. Colecciones/Actividades/AR12_14/test",
-    "12. Colecciones/Actividades/AR12_14/manifest.mf",
-    "12. Colecciones/Actividades/AR12_14/src/ar12_14/AR12_14.java",
-    "12. Colecciones/Actividades/AR12_14/src/ar12_14",
-    "12. Colecciones/Actividades/AR12_14/src",
-    "12. Colecciones/Actividades/AR12_14/build.xml",
-    "12. Colecciones/Actividades/AR12_14/nbproject/build-impl.xml",
     "Repasillos.md",
     "Programación clase 7_5_2024.md",
     "11. Ficheros Binarios/Ficheros Binarios.md",
