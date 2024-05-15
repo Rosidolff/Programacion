@@ -7,17 +7,22 @@ package ada12_21;
 import java.util.TreeSet;
 import java.util.Set;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class AdA12_21 {
 
     public static void main(String[] args) {
-        Set<Integer> numeros = new TreeSet<>(Collections.reverseOrder());
+        Scanner sc = new Scanner(System.in);
+        int limite;
+        Set<Integer> numeros = new TreeSet<>(Collections.reverseOrder()); //(o1, o2) -> o2 -o1;
+        
+        System.out.println("Introduzca el valor máximo de los numeros: ");
+        limite = sc.nextInt();
 
         while (numeros.size() < 20) {
-            int num = (int) (Math.random() * 100);
-            numeros.add(num);
+           numeros.add ((int) (Math.random() * limite));
         }
-
+        System.out.println(numeros.size());
         System.out.println("Colección de números: " + numeros);
     }
 }

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
 public class AdA12_26 {
 
     public static void main(String[] args) {
@@ -20,9 +21,10 @@ public class AdA12_26 {
             System.out.println("Grupo " + (i + 1) + ": " + grupos.get(i));
         }
     }
-        public static List<List<String>> reparteAlumnos(List<String> lista, int numGrupos) {
+
+    public static List<List<String>> reparteAlumnos(List<String> lista, int numGrupos) {
         List<List<String>> grupos = new ArrayList<>();
-            Collections.shuffle(lista);
+        Collections.shuffle(lista);
 
         for (int i = 0; i < numGrupos; i++) {
             grupos.add(new ArrayList<>());
