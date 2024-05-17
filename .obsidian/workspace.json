@@ -8,103 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ffdc9d066797dae",
+            "id": "b6da36ca400a1baa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97d9fd2d29802f19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Casteos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a18be62d968c972",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23d3c9ea8d5442ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z.JAVASCRIPT/JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5424e0d06d18b0fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baf49bbc156f9d5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. Ficheros Binarios/Ficheros Binarios.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d00df9a30c1a052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99b16552fa816253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12. Colecciones/Colecciones.md",
+                "file": "PL-SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asList",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b8c0366e741e806",
@@ -171,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12. Colecciones/Colecciones.md",
+                "file": "PL-SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12. Colecciones/Colecciones.md",
+                "file": "PL-SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12. Colecciones/Colecciones.md"
+                "file": "PL-SQL.md"
               }
             }
           }
@@ -232,32 +147,33 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "99b16552fa816253",
+  "active": "b6da36ca400a1baa",
   "lastOpenFiles": [
-    "12. Colecciones/Actividades/AdA12_21/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_11/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_13/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_24/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_26/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_25/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_12/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_4/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_8/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AP12_5/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_6/nbproject/private/private.xml",
-    "Linux/Linux.md",
-    "Sistemas.md",
+    "12. Colecciones/Actividades/AdA12_16/manifest.mf",
+    "12. Colecciones/Actividades/AdA12_16/src/ada12_16/AdA12_16.java",
+    "12. Colecciones/Actividades/AdA12_16/src/ada12_16",
+    "12. Colecciones/Actividades/AdA12_16/src",
+    "12. Colecciones/Actividades/AdA12_16/build.xml",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/build-impl.xml",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/genfiles.properties",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/project.properties",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/private/private.properties",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/private",
+    "12. Colecciones/Actividades/AdA12_16/nbproject/project.xml",
     "12. Colecciones/Colecciones.md",
+    "Sistemas.md",
+    "11. Ficheros Binarios/Ficheros Binarios.md",
+    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
+    "Z.JAVASCRIPT/JavaScript.md",
+    "Casteos.md",
+    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+    "PL-SQL.md",
+    "Linux/Linux.md",
     "Repasillos.md",
     "Programación clase 7_5_2024.md",
-    "11. Ficheros Binarios/Ficheros Binarios.md",
     "5. Arrays/Arrays.md",
-    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-    "Casteos.md",
-    "Z.JAVASCRIPT/JavaScript.md",
     "7. Clases/Clases.md",
     "Otros Truquis en Java.md",
-    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
     "Pasted image 20240430171603.png",
     "README.md",
     "Pasted image 20240501122155.png",
