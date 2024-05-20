@@ -1,20 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
 package ar12_1;
 
 import java.util.Arrays;
 
+/**
+ *
+ * @author JMart
+ */
 public class AR12_1 {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        String cadenas[] = new String[0];
-        System.out.println(Arrays.toString(cadenas));
-        cadenas = guardar("coche", cadenas);
-        cadenas = guardar("avion", cadenas);
-        System.out.println(Arrays.toString(cadenas));
+        // TODO code application logic here
+
     }
 
-    static <E> E[] guardar(E elemen, E[] tabla) {
-        E[] nuevaTabla = Arrays.copyOf(tabla, tabla.length + 1);
-        nuevaTabla[nuevaTabla.length-1] = elemen;
-        return nuevaTabla;
+    public <U> U[] insertarobjeto(U[] tabla, U o) {
+        tabla = Arrays.copyOf(tabla, tabla.length+1);
+        tabla[tabla.length-1] = o;
+        
+        return tabla;
     }
 }

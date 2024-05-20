@@ -40,7 +40,7 @@ class Compara Nombres implements Comparator<Clientes>{
 >[!Lambda] 
 >Tambien podemos usar una expresion #lambda para resumir la implementacion de una clase anonima y crear un metodo de comparador llamando directamente a al implementacion de `Comparable` de la clase.
 ```java
-Comparator<Cliente> ordenClientes = c1, c2) -> c1.dni.compareTo.c2.dni);
+Comparator<Cliente> ordenClientes = (c1, c2) -> c1.dni.compareTo.(c2.dni);
 ```
 ### Parámetros genéricos limitados
 `class Clase<T extends claseLimite>{...}` limita T a objetos de la claseLimite y sus subclases.
@@ -108,6 +108,8 @@ Collection<Cliente> coleccionClie = listaClientes;
   ```
 
 ## Métodos de Eliminación
+
+
 
 - **remove(Object obj)**
   Elimina la primera instancia de `obj` de la colección. Devuelve `true` si la colección cambió.
@@ -179,12 +181,12 @@ Collection<Cliente> coleccionClie = listaClientes;
 ## Conversión y Manipulación
 
 - **Object\[\] toArray()**
-  Devuelve un arreglo que contiene todos los elementos de la colección.
+  Devuelve un array que contiene todos los elementos de la colección.
   ```java
   Object[] elementos = coleccionClie.toArray();
   ```
 - **\<T\> T\[\] toArray(T\[\] a)**
-  Devuelve un arreglo de tipo `T` con todos los elementos de la colección, es costumbre definirla con tamaño 0.
+  Devuelve un array de tipo `T` con todos los elementos de la colección, es costumbre definirla con tamaño 0.
   ```java
   Cliente[] arrayClientes = coleccionClie.toArray(new Cliente[0]);
   ```
@@ -199,8 +201,8 @@ lista.addAll(Arrays.asList(tabla));
 
 ## Interface List
 tanto `ArrayList` como `LinkedList` hacen lo mismo pero su rendimiento es diferente:
-- `ArrayList` más rápida en operaciones de recorrer listas para lectura o modificacion de items
-- `LinkedList` mejor rendimiendo con operacione sde inserccion y eliminacion de items.
+- `ArrayList` más rápida en operaciones de recorrer listas para lectura o modificación de ítems
+- `LinkedList` mejor rendimiento con operaciones de inserción y eliminación de ítems.
 ### Métodos Específicos de List
 
 La interfaz `List` extiende de `Collection` y proporciona métodos para manipular elementos con acceso posicional por índices.
@@ -282,7 +284,8 @@ List<Integer> lista = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)); Collections
 - `Collections.shuffle(List<?>)`: Desordena los elementos de la lista.
 
 ```java
-List<Integer> datos = new ArrayList<>(Arrays.asList(1, 2, 3)); Collections.shuffle(datos); Integer max = Collections.max(datos);
+List<Integer> datos = new ArrayList<>(Arrays.asList(1, 2, 3)); Collections.shuffle(datos); 
+Integer max = Collections.max(datos);
 ```
 `
 

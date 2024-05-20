@@ -4,6 +4,37 @@
     "type": "split",
     "children": [
       {
+        "id": "eb6ccf7fc11a2f87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d9465a1e1c935c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Casteos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d439845f05efad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12. Colecciones/Metodos Colecciones.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
         "id": "f44b7023b2d72172",
         "type": "tabs",
         "children": [
@@ -13,13 +44,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PL-SQL.md",
+                "file": "12. Colecciones/Colecciones.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9880cfcc0ace53c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11. Ficheros Binarios/Ficheros Binarios.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8b8c0366e741e806",
@@ -86,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PL-SQL.md",
+                "file": "12. Colecciones/Metodos Colecciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PL-SQL.md",
+                "file": "12. Colecciones/Metodos Colecciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PL-SQL.md"
+                "file": "12. Colecciones/Metodos Colecciones.md"
               }
             }
           }
@@ -147,35 +190,39 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b6da36ca400a1baa",
+  "active": "4d439845f05efad2",
   "lastOpenFiles": [
-    "12. Colecciones/Actividades/AdA12_15/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_16/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_16/manifest.mf",
-    "12. Colecciones/Actividades/AdA12_16/src/ada12_16/AdA12_16.java",
-    "12. Colecciones/Actividades/AdA12_16/src/ada12_16",
-    "12. Colecciones/Actividades/AdA12_16/src",
-    "12. Colecciones/Actividades/AdA12_16/build.xml",
-    "12. Colecciones/Actividades/AdA12_16/nbproject/build-impl.xml",
-    "12. Colecciones/Actividades/AdA12_16/nbproject/genfiles.properties",
-    "12. Colecciones/Actividades/AdA12_16/nbproject/project.properties",
-    "12. Colecciones/Actividades/AdA12_16/nbproject/private/private.properties",
-    "12. Colecciones/Colecciones.md",
-    "Sistemas.md",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1/Simulacro1.class",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1/Personaje.class",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1/Jefe.class",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1/Guerrero.class",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1/Ejercito.class",
+    "z.Simulacros/Simulacro1/build/classes/simulacro1",
+    "z.Simulacros/Simulacro1/build/classes",
+    "z.Simulacros/Simulacro1/build",
+    "z.Simulacros/Simulacro1/src/simulacro1/Jefe.java",
+    "z.Simulacros/Simulacro1/test",
+    "z.Simulacros/Simulacro1/src/simulacro1/Ejercito.java",
     "11. Ficheros Binarios/Ficheros Binarios.md",
-    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-    "Z.JAVASCRIPT/JavaScript.md",
+    "12. Colecciones/Metodos Colecciones.md",
     "Casteos.md",
-    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-    "PL-SQL.md",
-    "Linux/Linux.md",
+    "12. Colecciones/Colecciones.md",
+    "Diagramas.md",
+    "Pasted image 20240519173220.png",
+    "Pasted image 20240519134928.png",
+    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
+    "7. Clases/Clases.md",
+    "OTRAS ASIGNATURAS/Sistemas.md",
     "Repasillos.md",
+    "README.md",
+    "OTRAS ASIGNATURAS/PL-SQL.md",
+    "OTRAS ASIGNATURAS/Z.JAVASCRIPT/JavaScript.md",
+    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
+    "OTRAS ASIGNATURAS/Linux/Linux.md",
     "Programación clase 7_5_2024.md",
     "5. Arrays/Arrays.md",
-    "7. Clases/Clases.md",
     "Otros Truquis en Java.md",
     "Pasted image 20240430171603.png",
-    "README.md",
     "Pasted image 20240501122155.png",
     "12. Colecciones/Coleccionesasdf.md",
     "Sin título 1.md",

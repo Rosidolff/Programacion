@@ -9,83 +9,63 @@ import java.util.Arrays;
 /**
  *
  * @author JMart
- * @param <T>
  */
-public class Contenedor<T extends Comparable<T>> implements Pila<T>, Cola<T> {
+public class Contenedor<T> implements Comparable<T>{
 
-    private T[] objetos;
+    private T[] tabla;
 
-    public Contenedor(T[] objetos) {
-        this.objetos = objetos;
+    public Contenedor(T[] tabla) {
+        this.tabla = tabla;
     }
 
-    public void insertarAlPrincipio(T nuevo) {
-        objetos = Arrays.copyOf(objetos, objetos.length + 1);
-        for (int i = objetos.length - 2; i >= 0; i--) {
-            objetos[i + 1] = objetos[i];
+    void insertarAlPrincipio(T nuevo) {
+
+        tabla = Arrays.copyOf(tabla, tabla.length + 1);
+        System.arraycopy(tabla, 0, tabla, 1, tabla.length);
+        tabla[0] = nuevo;
+    }
+
+    void insertarAlFinal(T nuevo) {
+        tabla = Arrays.copyOf(tabla, tabla.length + 1);
+        tabla[tabla.length - 1] = nuevo;
+
+    }
+
+    T extraerDelPrincipio() {
+        T sale = null;
+        if (tabla.length>0){
+         sale = tabla[0];
+         tabla = Arrays.copyOfRange(tabla, 1,tabla.length);
         }
-        objetos[0] = nuevo;
+        
+        return sale;
     }
 
-    public void insertarAlFinal(T nuevo) {
-        objetos = Arrays.copyOf(objetos, objetos.length + 1);
-        objetos[objetos.length - 1] = nuevo;
-    }
-
-    public T extraerDelPrincipio() {
-        T extraido;
-        if (objetos.length == 0) {
-            System.out.println("No hay elementos para extraer");
-            extraido = null;
-        } else {
-            extraido = objetos[0];
-
-            objetos = Arrays.copyOfRange(objetos, 1, objetos.length);
+    T extraerDelFinal() {
+        T sale = null;
+        if (tabla.length>0){
+           sale = tabla[tabla.length-1]; 
+           tabla = Arrays.copyOf(tabla, tabla.length-1);
         }
-        return extraido;
-    }
-
-    public T extraerDelFinal() {
-        T extraido;
-        if (objetos.length == 0) {
-            System.out.println("No hay elementos para extraer");
-            extraido = null;
-        } else {
-            extraido = objetos[objetos.length - 1];
-
-            objetos = Arrays.copyOfRange(objetos, 0, objetos.length - 1);
-        }
-        return extraido;
+        
+        
+        return sale;
     }
 
     void ordenar() {
 
-        Arrays.sort(objetos);
     }
 
     @Override
     public String toString() {
-        return Arrays.deepToString(objetos);
+        return 
     }
 
     @Override
-    public void apilar(T nuevo) {
-        this.insertarAlFinal(nuevo);
+    public int compareTo(T o) {
+       
     }
 
-    @Override
-    public T desapilar() {
-       return this.extraerDelFinal();
-    }
 
-    @Override
-    public void encolar(T nuevo) {
-        this.insertarAlFinal(nuevo);
-    }
-
-    @Override
-    public T desencolar() {
-        return this.extraerDelPrincipio();
-    }
 
 }

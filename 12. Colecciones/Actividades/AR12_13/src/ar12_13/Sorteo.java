@@ -1,53 +1,41 @@
-package ar12_13;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package ar12_13;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 /**
  *
  * @author JMart
- * @param <T>
  */
 public class Sorteo<T> {
-
-    private Set<T> bombo;
+    Set<T> bombo;
 
     public Sorteo() {
-        bombo = new HashSet<>();
+        bombo = new TreeSet<>();
     }
-
-    boolean add(T papeleta) {
-        return bombo.add(papeleta);
+    
+    boolean add (T elem){        
+    return bombo.add(elem);
     }
-
-    Set<T> premiados(int cantidadPremios) {
-        Set<T> premios = null;
-        if (cantidadPremios > bombo.size()) {
-            System.out.println("No hay suficientes papeletas para la cantidad de premios solicitados.");
-        } else {
-            List<T> listaBombo = new ArrayList<>(bombo); // Convertimos el Set a List para barajar
-            Collections.shuffle(listaBombo); // Barajamos la lista
-
-            premios = new HashSet<>();
-            Iterator<T> it = listaBombo.iterator();
-            for (int i = 0; i < cantidadPremios; i++) {
-                premios.add(it.next());
-            }
+    
+    Set<T> premiados (int cantidad){
+        List<T> lista = new ArrayList<>(bombo);
+        Set<T> premios = new TreeSet<>(bombo);
+        Collections.shuffle(lista);
+        if (cantidad<=bombo.size()){
+            premios.clear();
+           for(int i =0; i<cantidad;i++ ){
+               premios.add(lista.get(i));
+           } 
         }
         return premios;
     }
-
-    @Override
-    public String toString() {
-        return bombo.toString();
-    }
-
+    
 }
