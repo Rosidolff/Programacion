@@ -8,11 +8,11 @@ import java.io.*;
 import java.util.*;
 
 public class AdA12_25 {
-
-    public static void main(String[] args) {
-        //private Map<String, Socio> socios = new HashMap<>();
-
-        Scanner sc = new Scanner(System.in);
+    
+ static Map<String, Socio> socios = new HashMap<>();
+ static Scanner sc = new Scanner(System.in);
+ 
+    public static void main(String[] args) {        
         int opcion;
         String dni, nombre, fIngreso, anio;
 
