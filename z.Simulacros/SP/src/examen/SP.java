@@ -2,21 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ada12_37;
+package examen;
 
 /**
  *
- * @author DAW25
+ * @author JMart
  */
-public class AdA12_37 {
+public class SP {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Mapa (int)Dorsal, Jugador
-        
-        
+        // TODO code application logic here
     }
     
 }
