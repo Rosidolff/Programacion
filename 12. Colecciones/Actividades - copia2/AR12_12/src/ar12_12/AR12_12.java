@@ -18,18 +18,17 @@ public class AR12_12 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    }
+    
+    static <U> Set<U> union (Set<U> c1, Set<U> c2){
+        Set<U>c3 = new TreeSet<>(c1);
+        c3.addAll(c2);
+        return c3;
+    }
+        static <U> Set<U> interseccion (Set<U> c1, Set<U> c2){
+                Set<U>c3 = new TreeSet<>(c1);
+                c3.retainAll(c2);
+                return c3;
 
-    }
-    static <E> Set<E> union (Set<E> oC1, Set<E> oC2){ 
-        Set<E> oC3 = new TreeSet<>(oC1);
-        oC3.addAll(oC2);
-        return oC3;
-    }
-        static <E> Set<E> interseccion (Set<E> oC1, Set<E> oC2){ 
-        Set<E> oC3 = new TreeSet<>(oC1);
-        oC3.retainAll(oC2);
-        return oC3;
     }
 }
-
-

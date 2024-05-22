@@ -1,124 +1,39 @@
 {
   "main": {
-    "id": "2ca0b66cf8979236",
+    "id": "227b586a87130df0",
     "type": "split",
     "children": [
       {
-        "id": "f44b7023b2d72172",
+        "id": "69c6e355755c4388",
         "type": "tabs",
         "children": [
           {
-            "id": "9ffdc9d066797dae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97d9fd2d29802f19",
+            "id": "64616bfa7c1b0b8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Casteos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a18be62d968c972",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23d3c9ea8d5442ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z.JAVASCRIPT/JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5424e0d06d18b0fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baf49bbc156f9d5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. Ficheros Binarios/Ficheros Binarios.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d00df9a30c1a052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99b16552fa816253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12. Colecciones/Colecciones.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3b4e47e99f8875c1",
+    "id": "6f1382bc4f989b6c",
     "type": "split",
     "children": [
       {
-        "id": "186e5ccff5b9f5de",
+        "id": "131de05e2cdd488d",
         "type": "tabs",
         "children": [
           {
-            "id": "cfe5353ca9d78ba1",
+            "id": "ecba68316e4029f5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -128,12 +43,12 @@
             }
           },
           {
-            "id": "5338a88c0f5deec0",
+            "id": "c32627906a47eb52",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Collection",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,35 +58,34 @@
             }
           },
           {
-            "id": "a6bbc03d812195ac",
+            "id": "40fbe94a18a7381b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "8b8c0366e741e806",
+    "id": "0effea026a6ac41e",
     "type": "split",
     "children": [
       {
-        "id": "2bc804287b960b15",
+        "id": "6db3d9a5506fe2f2",
         "type": "tabs",
         "children": [
           {
-            "id": "f9dc24afdace4c4f",
+            "id": "40caba6b35eec329",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12. Colecciones/Colecciones.md",
+                "file": "Casteos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,19 +97,19 @@
             }
           },
           {
-            "id": "eed73923af31e6d5",
+            "id": "a0179221e2dee442",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12. Colecciones/Colecciones.md",
+                "file": "Casteos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6df30cc11c205a8d",
+            "id": "5780b0774fa0229d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -206,12 +120,12 @@
             }
           },
           {
-            "id": "aee4245017d49566",
+            "id": "a385bc2822f399ca",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "12. Colecciones/Colecciones.md"
+                "file": "Casteos.md"
               }
             }
           }
@@ -232,37 +146,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "5338a88c0f5deec0",
+  "active": "64616bfa7c1b0b8a",
   "lastOpenFiles": [
-    "12. Colecciones/Actividades/AdA12_24/test",
-    "12. Colecciones/Actividades/AdA12_24/build/classes/ada12_24/AdA12_24.class",
-    "12. Colecciones/Actividades/AdA12_24/build/classes/ada12_24",
-    "12. Colecciones/Actividades/AdA12_24/build/generated-sources/ap-source-output",
-    "12. Colecciones/Actividades/AdA12_24/build/generated-sources",
-    "12. Colecciones/Actividades/AdA12_24/build/empty",
-    "12. Colecciones/Actividades/AdA12_24/build/classes",
-    "12. Colecciones/Actividades/AdA12_24/build/built-jar.properties",
-    "12. Colecciones/Actividades/AdA12_24/build",
-    "12. Colecciones/Actividades/AdA12_22/build/classes/ada12_22/AdA12_22.class",
-    "12. Colecciones/Actividades/AdA12_22/build/classes/ada12_22",
-    "Linux/Linux.md",
-    "Sistemas.md",
-    "12. Colecciones/Colecciones.md",
-    "Repasillos.md",
-    "Programación clase 7_5_2024.md",
-    "11. Ficheros Binarios/Ficheros Binarios.md",
-    "5. Arrays/Arrays.md",
-    "6. Cadenas de caracteres/Cadenas de Caracteres.md",
-    "Casteos.md",
-    "Z.JAVASCRIPT/JavaScript.md",
-    "7. Clases/Clases.md",
-    "Otros Truquis en Java.md",
-    "10. Sistemas de Ficheros/Sistemas de ficheros.md",
-    "Pasted image 20240430171603.png",
-    "README.md",
-    "Pasted image 20240501122155.png",
-    "12. Colecciones/Coleccionesasdf.md",
-    "Sin título 1.md",
-    "1.Conceptos Básicos/Sin título.md"
+    "12. Colecciones/Metodos Colecciones.md",
+    "z.Simulacros/Simulacro1/nbproject/private/private.xml",
+    "otros/SimP/nbproject/private/private.xml",
+    "otros/SimP/build/classes/simp/Examen12Mayo23.class",
+    "otros/SimP/build/classes/simp/ComisariaPolicia.class",
+    "otros/SimP/build/classes/policias/PoliciaTransito.class",
+    "otros/SimP/build/classes/policias/Policia.class",
+    "otros/SimP/build/classes/policias/Multa.class",
+    "otros/SimP/build/classes/policias/JefePolicia.class",
+    "otros/SimP/build/classes/simp",
+    "otros/SimP/build/classes/policias",
+    "12. Colecciones/Colecciones.md"
   ]
 }

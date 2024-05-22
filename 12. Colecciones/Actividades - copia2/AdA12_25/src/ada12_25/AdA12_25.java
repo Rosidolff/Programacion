@@ -4,124 +4,172 @@
  */
 package ada12_25;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
+/**
+ *
+ * @author JMart
+ */
 public class AdA12_25 {
+<<<<<<< HEAD:12. Colecciones/Actividades - copia2/AdA12_25/src/ada12_25/AdA12_25.java
     
  static Map<String, Socio> socios = new HashMap<>();
  static Scanner sc = new Scanner(System.in);
  
     public static void main(String[] args) {        
+=======
+
+    static Scanner sc = new Scanner(System.in);
+    static Map<String, Socio> gl = new HashMap<>();
+
+    public static void main(String[] args) {
+>>>>>>> a713dfe3bae96c8cdf3f2479b60a8afbebed50e2:12. Colecciones/Actividades/AdA12_25/src/ada12_25/AdA12_25.java
         int opcion;
-        String dni, nombre, fIngreso, anio;
+        gl = abreGl();
 
-        cargarDatos();
-        do {
-            System.out.println("""
-                Menú:
-                1. Alta socio.
-                2. Baja socio.
-                3. Modificación socio.
-                4. Listar socios por DNI.
-                5. Listar socios por antigüedad.
-                6. Listar los socios con alta anterior a un año determinado.
-                7. Salir.
-                """);
-            opcion = sc.nextInt();
-            sc.nextLine(); // Consume el salto de línea
-
+        pintaMenu();
+        opcion = sc.nextInt();
+        sc.nextLine();
+        while (opcion != 7) {
             switch (opcion) {
-                case 1 -> {
-                    System.out.print("Introduce DNI: ");
-                    dni = sc.nextLine();
-                    System.out.print("Introduce nombre: ");
-                    nombre = sc.nextLine();
-                    System.out.print("Introduce fecha de ingreso (dd/MM/yyyy): ");
-                    fIngreso = sc.nextLine();
-                    altaSocio(dni, nombre, fIngreso);
-                }
-                case 2 -> {
-                    System.out.print("Introduce DNI: ");
-                    dni = sc.nextLine();
-                    bajaSocio(dni);
-                }
-                case 3 -> {
-                    System.out.print("Introduce DNI: ");
-                    dni = sc.nextLine();
-                    System.out.print("Introduce nuevo nombre: ");
-                    nombre = sc.nextLine();
-                    System.out.print("Introduce nueva fecha de ingreso (dd/MM/yyyy): ");
-                    fIngreso = sc.nextLine();
-                    modificacionSocio(dni, nombre, fIngreso);
-                }
+                case 1 ->
+                    alta();
+                case 2 ->
+                    baja();
+                case 3 ->
+                    modificar();
                 case 4 ->
-                    listarSociosPorDNI();
+                    listarApodo();
                 case 5 ->
-                    listarSociosPorAntiguedad();
-                case 6 -> {
-                    System.out.print("Introduce año: ");
-                    anio = sc.nextLine();
-                    listarSociosPorAno(anio);
-                }
-                case 7 -> {
-                    System.out.println("Guardando datos y saliendo...");
-                    guardarDatos();
-                }
-                default ->
-                    System.out.println("Opción no válida.");
+                    listarAntiguedad();
+                case 6 ->
+                    listarPorAnio();
+                case 7 ->
+                    System.out.println("Saliendo del programa, guardando modificaciones");
             }
-        } while (opcion != 7);
+
+            pintaMenu();
+            opcion = sc.nextInt();
+            sc.nextLine();
+        }
+
+        cierraGl();
+
     }
 
-    public static void altaSocio(String dni, String nombre, String fIngreso) {
-        socios.put(dni, new Socio(dni, nombre, fIngreso));
+    static void pintaMenu() {
+        System.out.println("""
+                                    Menu:
+                                   1) Alta Socio
+                                   2) Baja Socio
+                                   3) Modificar Socio
+                                   4) Listar Socios por apodo
+                                   5) Listar Socios por Antigüedad
+                                   6) Listar Socios con alta anterior al año (introduzca un año):
+                                   7)
+                                            """);
     }
 
-    public static void bajaSocio(String dni) {
-        socios.remove(dni);
-    }
-
-    public static void modificacionSocio(String dni, String nuevoNombre, String nFIngres) {
-        if (socios.containsKey(dni)) {
-            socios.put(dni, new Socio(dni, nuevoNombre, nFIngres));
+    static void cierraGl() {
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("socios.dat"))) {
+            out.writeObject(gl);
+        } catch (IOException ex) {
+            System.out.println(ex);
         }
     }
 
-    public static void listarSociosPorDNI() {
-        socios.forEach((dni, socio) -> System.out.println(dni + ": " + socio));
+    static Map<String, Socio> abreGl() {
+        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("socios.dat"))) {
+            gl = (Map<String, Socio>) in.readObject();
+        } catch (IOException | ClassNotFoundException ex) {
+            System.out.println(ex);
+        }
+        return gl;
     }
 
-    public static void listarSociosPorAntiguedad() {
-        List<Socio> listaSocios = new ArrayList<>(socios.values());
-        listaSocios.sort(Comparator.comparing(Socio::antiguedad).reversed());
-        listaSocios.forEach(System.out::println);
+    private static void alta() {
+        String apodo, nombre, fecha;
+        System.out.println("Introduzca el apodo que desea dar de alta");
+        apodo = sc.nextLine();
+        if (gl.containsKey(apodo)) {
+            System.out.println("Lo siento, ese apodo ya está en uso");
+        } else {
+            System.out.println("Introduzca el nombre y fecha de Inscripción:\nNombre:");
+            nombre = sc.nextLine();
+            System.out.println("Fecha de alta 'dd/MM/yyyy':");
+            fecha = sc.nextLine();
+            gl.put(apodo, new Socio(nombre, fecha));
+        }
     }
 
-    public static void listarSociosPorAno(String ano) {
-        int year = Integer.parseInt(ano);
-        List<Socio> listaSocios = new ArrayList<>(socios.values());
-        for (Socio socio : listaSocios) {
-            if (socio.getFnac().getYear() <= year) {
-                System.out.println(socio);
+    private static void baja() {
+        String apodo;
+        System.out.println("Introduzca el apodo que desea dar de baja");
+        apodo = sc.nextLine();
+        if (!gl.containsKey(apodo)) {
+            System.out.println("Lo siento, ese apodo no está en uso");
+        } else {
+            gl.remove(apodo);
+        }
+    }
+
+    private static void modificar() {
+        String apodo, nombre, fecha;
+        System.out.println("Introduzca el apodo que desea modificar");
+        apodo = sc.nextLine();
+        if (!gl.containsKey(apodo)) {
+            System.out.println("Lo siento, ese apodo no está en uso");
+        } else {
+            System.out.println("Introduzca el nuevo nombre y fecha de Inscripción:\nNombre:");
+            nombre = sc.nextLine();
+            System.out.println("Fecha de alta 'dd/MM/yyyy':");
+            fecha = sc.nextLine();
+            gl.put(apodo, new Socio(nombre, fecha));
+        }
+    }
+
+    private static void listarApodo() {
+        Set<Map.Entry<String, Socio>> cApodo = gl.entrySet();
+        List<Map.Entry<String, Socio>> lApodo = new ArrayList<>(cApodo);
+        lApodo.sort((a1, a2) -> a1.getKey().compareTo(a2.getKey()));
+        System.out.println(lApodo);
+    }
+
+    private static void listarAntiguedad() {
+        Set<Map.Entry<String, Socio>> cAnt = gl.entrySet();
+        List<Map.Entry<String, Socio>> lAnt = new ArrayList<>(cAnt);
+        lAnt.sort((a1, a2) -> a1.getValue().fi.compareTo(a2.getValue().fi));
+        System.out.println(lAnt);
+    }
+
+    private static void listarPorAnio() {
+        Set<Map.Entry<String, Socio>> conjunto = gl.entrySet();
+        List<Map.Entry<String, Socio>> lista = new ArrayList<>(conjunto);
+        int anio;
+        System.out.println("Introduzca el año que quiere consultar: ");
+        anio = sc.nextInt();
+        sc.nextLine();
+        Iterator<Map.Entry<String, Socio>> it = lista.iterator();
+        while(it.hasNext()){
+            if(it.next().getValue().fi.getYear()>anio){
+                it.remove();
             }
         }
-    }
-
-    private static void guardarDatos() {
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("club.dat"))) {
-            out.writeObject(socios);
-        } catch (IOException e) {
-            System.out.println("Error al guardar los datos.");
-        }
-    }
-
-    private static void cargarDatos() {
-        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("club.dat"))) {
-            socios = (Map<String, Socio>) in.readObject();
-        } catch (IOException | ClassNotFoundException e) {
-            System.out.println("Error al cargar los datos.");
-        }
+        System.out.println(lista);
     }
 
 }
