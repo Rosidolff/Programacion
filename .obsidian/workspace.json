@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "227b586a87130df0",
+    "id": "261607df96bbcd93",
     "type": "split",
     "children": [
       {
-        "id": "69c6e355755c4388",
+        "id": "334b5b25ab5da6a4",
         "type": "tabs",
         "children": [
           {
-            "id": "64616bfa7c1b0b8a",
+            "id": "d6ac4bb02f65197d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Casteos.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "mode": "preview",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6f1382bc4f989b6c",
+    "id": "56250c820742c5af",
     "type": "split",
     "children": [
       {
-        "id": "131de05e2cdd488d",
+        "id": "268abd62be3fed3f",
         "type": "tabs",
         "children": [
           {
-            "id": "ecba68316e4029f5",
+            "id": "eec2eea82c67de5e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "c32627906a47eb52",
+            "id": "84f929db95682fb0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "40fbe94a18a7381b",
+            "id": "5847ce48f7766a58",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "0effea026a6ac41e",
+    "id": "89f93a364c5643c4",
     "type": "split",
     "children": [
       {
-        "id": "6db3d9a5506fe2f2",
+        "id": "a1844865b8de2195",
         "type": "tabs",
         "children": [
           {
-            "id": "40caba6b35eec329",
+            "id": "fd65254b3a013393",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Casteos.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "a0179221e2dee442",
+            "id": "6cca87189282a887",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Casteos.md",
+                "file": "12. Colecciones/Colecciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5780b0774fa0229d",
+            "id": "910ace8441f419e3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "a385bc2822f399ca",
+            "id": "ac22e84a9e657c9c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Casteos.md"
+                "file": "12. Colecciones/Colecciones.md"
               }
             }
           }
@@ -146,34 +146,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "64616bfa7c1b0b8a",
+  "active": "eec2eea82c67de5e",
   "lastOpenFiles": [
-<<<<<<< HEAD
-=======
-    "z.Simulacros/SP/src/policias/comparable.java",
-    "z.Simulacros/SP/src/examen/ComisariaPolicia.java",
-    "z.Simulacros/SP/src/examen/SP.java",
-    "z.Simulacros/SP/src/examen",
-    "12. Colecciones/Actividades/AR12_15/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AdA12_37/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_18/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AP12_4/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_12/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AP12_3/nbproject/private/private.xml",
-    "12. Colecciones/Actividades/AR12_16/nbproject/private/private.xml",
-    "11. Ficheros Binarios/Ficheros Binarios.md",
->>>>>>> d75e3476f4771fc7326a59b8b99f3cb876f81051
     "12. Colecciones/Metodos Colecciones.md",
-    "z.Simulacros/Simulacro1/nbproject/private/private.xml",
-    "otros/SimP/nbproject/private/private.xml",
-    "otros/SimP/build/classes/simp/Examen12Mayo23.class",
-    "otros/SimP/build/classes/simp/ComisariaPolicia.class",
-    "otros/SimP/build/classes/policias/PoliciaTransito.class",
-    "otros/SimP/build/classes/policias/Policia.class",
-    "otros/SimP/build/classes/policias/Multa.class",
-    "otros/SimP/build/classes/policias/JefePolicia.class",
-    "otros/SimP/build/classes/simp",
-    "otros/SimP/build/classes/policias",
     "12. Colecciones/Colecciones.md"
   ]
 }
