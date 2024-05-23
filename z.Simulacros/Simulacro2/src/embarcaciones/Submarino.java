@@ -12,7 +12,7 @@ public class Submarino extends Barco {
 
     private static int num = 1;
     public Submarino(double longitud) {
-        super("Sub-" + Integer.toString(num), longitud);
+        super("Sub-" + Integer.toString(num++), longitud);
     }
 
     public static int getNum() {

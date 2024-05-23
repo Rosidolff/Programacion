@@ -9,12 +9,13 @@ package embarcaciones;
  * @author DAW25
  */
 public class Acorazado extends Barco {
-    private static int num=1;
+
+    private static int num = 1;
     private int can;
 
     public Acorazado(double longitud, int can) {
-        super("Ac-"+Integer.toString(num), longitud);
-        this.can = can;
+        super("Ac-" + Integer.toString(num++), longitud);
+        this.setCan(can);
     }
 
     public static int getNum() {
@@ -30,21 +31,17 @@ public class Acorazado extends Barco {
     }
 
     public void setCan(int can) {
-        this.can = can;
+        if (can > 0) {
+            this.can = can;
+        } else{
+            this.can=0;
+    }
     }
 
     @Override
     public String toString() {
-        return super.toString()+" NºCañones: "+can;
+        return super.toString() + " NºCañones: " + can;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        boolean iguales = false;
-        if ((obj instanceof Acorazado) && ((Acorazado)obj).codigo.equals(codigo)){
-        iguales = true;
-    }
-        return iguales;
-    }
 
 }

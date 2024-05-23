@@ -51,8 +51,8 @@ public class Flota {
     public int longitudPeriscopioFlota() {
         int lp = 0;
         for (Barco velero : flota) {
-            if (velero instanceof Submarino) {
-                lp += ((Submarino) velero).getPeriscopio();
+            if (velero instanceof Submarino sub) {
+                lp += sub.getPeriscopio();
             }
         }
         return lp;
@@ -60,6 +60,8 @@ public class Flota {
 //→ devuelve la longitud total de los periscopios de la flota. 
 
     public boolean recibeAtaque(){
+          
+        
        Set<Barco> porLongitud = new TreeSet<>(flota);
        Barco b;
        Iterator<Barco> it = porLongitud.iterator();

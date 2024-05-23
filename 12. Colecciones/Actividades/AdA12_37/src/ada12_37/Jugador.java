@@ -32,7 +32,7 @@ public class Jugador implements Comparable<Jugador>{
 
     @Override
     public String toString() {
-        return dni+" "+nombre+" "+posicion+" "+altura;
+        return dni+" "+nombre+" "+posicion+" "+altura+"\n";
     }
 
     public Posicion getPosicion() {
